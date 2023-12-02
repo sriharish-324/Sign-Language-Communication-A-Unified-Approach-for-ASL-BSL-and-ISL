@@ -32,7 +32,7 @@ pip install mediapipe
 ```
 #### 2.Model training
 Open "[Hand_sign_classifier_model.ipynb](Hand_sign_classifier_model.ipynb)" in Jupyter Notebook and execute from top to bottom.<br>
-To change the number of training data classes, change the value of "NUM_CLASSES = 3" <br>and modify the label of "model/keypoint_classifier/keypoint_classifier_label.csv" as appropriate.<br><br>
+To change the number of training data classes, change the value of "NUM_CLASSES = 3" <br>and modify the label of "model/Hand_sign/Hand_sign_label.csv" as appropriate.<br><br>
 
 #### X.Model structure
 The image of the model prepared in "[Hand_sign_classifier_model.ipynb](Hand_sign_classifier_model.ipynb)" is as follows.
