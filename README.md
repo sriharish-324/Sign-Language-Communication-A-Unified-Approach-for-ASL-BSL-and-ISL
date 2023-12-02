@@ -54,3 +54,21 @@ The image of the model prepared in "[Hand_sign_classifier_model.ipynb](Hand_sign
 
 ### How to use the Model
 
+### app.py
+This is a sample program for inference.<br>
+In addition, learning data (key points) for hand sign recognition,<br>
+You can also collect training data (index finger coordinate history) for finger gesture recognition.
+
+### Hand_sign_classifier_model.ipynb
+This is a model training script for hand sign recognition.
+
+### TipPointClassification-Model.ipynb
+This is a model training script for finger gesture recognition.
+
+
+### utils/cvfpscalc.py
+This is a module for FPS measurement.
+
+# Training
+Hand sign recognition and finger gesture recognition can add and change training data and retrain the model.
+
