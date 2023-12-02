@@ -12,6 +12,8 @@ pip install https://files.pythonhosted.org/packages/12/74/f55fc21266c08c304f05a4
 
 ### Method 2: Changing Python to Version 3.8
 If you prefer using Python 3.8, you can follow these steps:
+
+```bash
 sudo apt update
 sudo apt install python3.8
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1
