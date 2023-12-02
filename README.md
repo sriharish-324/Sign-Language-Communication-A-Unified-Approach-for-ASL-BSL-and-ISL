@@ -41,6 +41,9 @@ For Python3.6.9
      sudo pip3 install -U numpy==1.22 future==0.18.2 mock==3.0.5 keras_preprocessing==1.1.2 keras_applications==1.0.8 gast==0.4.0 protobuf pybind11 cython pkgconfig packaging h5py==3.6.0
      sudo pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v$JP_VERSION tensorflow==$TF_VERSION+nv$NV_VERSION
 ```
+For Python3.8
+    https://simeontrieu.medium.com/a-gentle-introduction-to-computer-vision-part-2-building-tensorflow-for-the-jetson-xavier-nx-fcd11fc93be7
+    Follow the steps from the above link
 #### 2.Model training
 Open "[Hand_sign_classifier_model.ipynb](Hand_sign_classifier_model.ipynb)" in Jupyter Notebook and execute from top to bottom.<br>
 To change the number of training data classes, change the value of "NUM_CLASSES = 3" <br>and modify the label of "model/Hand_sign/Hand_sign_label.csv" as appropriate.<br><br>
