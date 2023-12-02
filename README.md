@@ -5,6 +5,7 @@ Before we get into hand sign recognition , it is mandatory to install mediapipe 
 This model mainly works on Multi Layered Perceptron (MLP) which detects the hand gestures using the keypoints attained by the algorithm
 
 # Requirements
+  Python3.6.9 or Python3.8
   mediapipe 0.8.3<br>
   OpenCV 3.4.2 or Later<br>
   Tensorflow 2.12.0+nv23.06 or Later<br>
