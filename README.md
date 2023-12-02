@@ -12,7 +12,7 @@ pip install https://files.pythonhosted.org/packages/12/74/f55fc21266c08c304f05a4
 
 ### Method 2: Changing Python to Version 3.8
 If you prefer using Python 3.8, you can follow these steps:
-
+This will change your default python3.6 to python 3.8
 ```bash
 sudo apt update
 sudo apt install python3.8
