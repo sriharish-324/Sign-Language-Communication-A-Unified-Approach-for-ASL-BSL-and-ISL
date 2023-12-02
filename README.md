@@ -68,7 +68,7 @@ Hand sign recognition and finger gesture recognition can add and change training
 
 #### 1.Learning data collection
 Press "k" to enter the mode to save key points（displayed as 「MODE:Logging Key Point」）<br>
-<img src="https://user-images.githubusercontent.com/37477845/102235423-aa6cb680-3f35-11eb-8ebd-5d823e211447.jpg" width="60%"><br><br>
+<img src="https://github.com/sriharish-324/Face-Feature-Extraction/blob/main/Resources/Modes/Screenshot%202023-12-03%20001711.png" width="60%"><br><br>
 If you press "0" to "9", the key points will be added to "model/Hand_sign/handKey.csv" as shown below.<br>
 1st column: Pressed number (used as class ID), 2nd and subsequent columns: Key point coordinates<br>
 <img src="https://user-images.githubusercontent.com/37477845/102345725-28d26280-3fe1-11eb-9eeb-8c938e3f625b.png" width="80%"><br><br>
