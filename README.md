@@ -10,11 +10,5 @@ The Jetson device comes with Python 3.6.9 by default. You can install Mediapipe 
 
 ```bash
 pip install https://files.pythonhosted.org/packages/12/74/f55fc21266c08c304f05a409ba388c50f94fb52ef0f99100bb60287c4d91/mediapipe-0.8.3-cp36-cp36m-manylinux2014_x86_64.whl
-### Method 2: Change Python 3.6.9 to Python 3.8
 
-```bash
-sudo apt update
-sudo apt install python3.8
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1
-sudo apt install python-pip
-pip install mediapipe
+
