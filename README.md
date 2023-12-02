@@ -43,7 +43,7 @@ For Python3.6.9
 ```
 For Python3.8
     https://simeontrieu.medium.com/a-gentle-introduction-to-computer-vision-part-2-building-tensorflow-for-the-jetson-xavier-nx-fcd11fc93be7<br>
-    Follow the steps from the above link
+    Follow the steps from the above link to build tensorflow from source 
 #### 2.Model training
 Open "[Hand_sign_classifier_model.ipynb](Hand_sign_classifier_model.ipynb)" in Jupyter Notebook and execute from top to bottom.<br>
 To change the number of training data classes, change the value of "NUM_CLASSES = 3" <br>and modify the label of "model/Hand_sign/Hand_sign_label.csv" as appropriate.<br><br>
